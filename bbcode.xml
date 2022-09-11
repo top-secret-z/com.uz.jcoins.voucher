@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/bbcode.xsd">
+	<import>
+		<bbcode name="jcvwsm">
+			<classname>wcf\system\bbcode\JCoinsVoucherMediaBBCode</classname>
+			<isBlockElement>1</isBlockElement>
+			<attributes>
+				<attribute name="0">
+					<validationpattern>^\d+$</validationpattern>
+					<required>1</required>
+				</attribute>
+				<attribute name="1">
+					<validationpattern>^(small|medium|large|original)$</validationpattern>
+				</attribute>
+				<attribute name="2">
+					<validationpattern>^(left|right|none)$</validationpattern>
+				</attribute>
+			</attributes>
+		</bbcode>
+		
+		<bbcode name="voucher">
+			<classname>wcf\system\bbcode\JCoinsVoucherBBCode</classname>
+			<attributes>
+				<attribute name="0">
+					<required>1</required>
+					<usetext>1</usetext>
+					<validationpattern>^\d+(?:,\d+)*$</validationpattern>
+				</attribute>
+			</attributes>
+		</bbcode>
+	</import>
+</data>

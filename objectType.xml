@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
+	<import>
+		<!-- Category -->
+		<type>
+			<name>com.uz.jcoins.voucher.category</name>
+			<definitionname>com.woltlab.wcf.category</definitionname>
+			<classname>wcf\system\category\JCoinsVoucherCategoryType</classname>
+			<defaultpermission>1</defaultpermission>
+		</type>
+		
+		<!-- notification -->
+		<type>
+			<name>com.uz.jcoins.voucher.notification</name>
+			<definitionname>com.woltlab.wcf.notification.objectType</definitionname>
+			<classname>wcf\system\user\notification\object\type\JCoinsVoucherNotificationObjectType</classname>
+			<category>de.wcflabs.wcf.jcoins</category>
+		</type>
+		
+		<!-- text -->
+		<type>
+			<name>com.uz.jcoins.voucher.content</name>
+			<definitionname>com.woltlab.wcf.message</definitionname>
+		</type>
+		
+		<!-- JCoins -->
+		<type>
+			<name>com.uz.jcoins.voucher.statement.voucher</name>
+			<definitionname>de.wcflabs.jcoins.statement.object</definitionname>
+			<editable>0</editable>
+			<classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
+			<category>de.wcflabs.jcoins.wcf</category>
+		</type>
+		
+		<!-- condition -->
+		<type>
+			<name>com.uz.jcoins.voucher.condition.userGroup</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserGroupCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>general</conditiongroup>
+			<includeguests>0</includeguests>
+		</type>
+		
+		<type>
+			<name>com.uz.jcoins.voucher.condition.username</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserUsernameCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.email</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserEmailCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.languages</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserLanguageCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.registrationDate</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserRegistrationDateCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.registrationDateInterval</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserRegistrationDateIntervalCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.avatar</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserAvatarCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.state</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserStateCondition</classname>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.activityPoints</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>activityPoints</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.likesReceived</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>likesReceived</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		<type>
+			<name>com.uz.jcoins.voucher.condition.userOptions</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserOptionsCondition</classname>
+			<conditiongroup>userOptions</conditiongroup>
+		</type>
+		
+		<type>
+			<name>com.uz.wcf.bot.condition.userTrophyCondition</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserTrophyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>general</conditiongroup>
+		</type>
+		<type>
+			<name>com.uz.wcf.bot.condition.trophyPoints</name>
+			<definitionname>com.uz.jcoins.voucher.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>trophyPoints</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- stat handlers -->
+		<type>
+			<name>com.uz.jcoins.voucher.stats</name>
+			<definitionname>com.woltlab.wcf.statDailyHandler</definitionname>
+			<classname>wcf\system\stat\JCoinsVoucherStatDailyHandler</classname>
+			<categoryname>com.woltlab.wcf.general</categoryname>
+		</type>
+		
+		<!-- ad conditions -->
+		<type>
+			<name>com.uz.jcoins.voucher</name>
+			<definitionname>com.woltlab.wcf.condition.ad</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsVouchers</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- notice conditions -->
+		<type>
+			<name>com.uz.jcoins.voucher</name>
+			<definitionname>com.woltlab.wcf.condition.notice</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditionobject>com.woltlab.wcf.user</conditionobject>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsVouchers</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- user bulk processing conditions -->
+		<type>
+			<name>com.uz.jcoins.voucher</name>
+			<definitionname>com.woltlab.wcf.bulkProcessing.user.condition</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsVouchers</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- user group assignment conditions -->
+		<type>
+			<name>com.uz.jcoins.voucher</name>
+			<definitionname>com.woltlab.wcf.condition.userGroupAssignment</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsVouchers</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- user search conditions -->
+		<type>
+			<name>com.uz.jcoins.voucher</name>
+			<definitionname>com.woltlab.wcf.condition.userSearch</definitionname>
+			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+			<conditiongroup>contents</conditiongroup>
+			<propertyname>jCoinsVouchers</propertyname>
+			<minvalue>0</minvalue>
+		</type>
+		
+		<!-- rebuild data workers -->
+		<type>
+			<name>com.uz.jcoins.voucher</name>
+			<definitionname>com.woltlab.wcf.rebuildData</definitionname>
+			<classname>wcf\system\worker\JCoinsVoucherRebuildDataWorker</classname>
+		</type>
+	</import>
+</data>
