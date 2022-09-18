@@ -1,1 +1,1 @@
-{* prevent usage of BBCode *} 
+{* prevent usage of BBCode *}

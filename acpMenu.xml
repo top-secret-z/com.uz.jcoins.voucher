@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/acpMenu.xsd">
-	<import>
-		<acpmenuitem name="wcf.acp.menu.link.voucherJCoins.category.list">
-			<controller>wcf\acp\page\JCoinsVoucherCategoryListPage</controller>
-			<parent>wcf.acp.menu.link.jcoins</parent>
-			<permissions>admin.jcoins.voucher.canManage</permissions>
-		</acpmenuitem>
-		
-		<acpmenuitem name="wcf.acp.menu.link.voucherJCoins.category.add">
-			<controller>wcf\acp\form\JCoinsVoucherCategoryAddForm</controller>
-			<parent>wcf.acp.menu.link.voucherJCoins.category.list</parent>
-			<permissions>admin.jcoins.voucher.canManage</permissions>
-			<icon>fa-plus</icon>
-		</acpmenuitem>
-		
-		<acpmenuitem name="wcf.acp.menu.link.voucherJCoins.list">
-			<controller>wcf\acp\page\JCoinsVoucherListPage</controller>
-			<parent>wcf.acp.menu.link.jcoins</parent>
-			<options>module_jcoins,module_jcoins_voucher</options>
-			<permissions>admin.jcoins.voucher.canManage</permissions>
-		</acpmenuitem>
-		<acpmenuitem name="wcf.acp.menu.link.voucherJCoins.add">
-			<controller>wcf\acp\form\JCoinsVoucherAddForm</controller>
-			<parent>wcf.acp.menu.link.voucherJCoins.list</parent>
-			<options>module_jcoins,module_jcoins_voucher</options>
-			<permissions>admin.jcoins.voucher.canManage</permissions>
-			<icon>fa-plus</icon>
-		</acpmenuitem>
-		<acpmenuitem name="wcf.acp.menu.link.voucherJCoins.log.list">
-			<controller>wcf\acp\page\JCoinsVoucherLogListPage</controller>
-			<parent>wcf.acp.menu.link.jcoins</parent>
-			<options>module_jcoins,module_jcoins_voucher</options>
-			<permissions>admin.jcoins.voucher.canManage</permissions>
-		</acpmenuitem>
-	</import>
+    <import>
+        <acpmenuitem name="wcf.acp.menu.link.voucherJCoins.category.list">
+            <controller>wcf\acp\page\JCoinsVoucherCategoryListPage</controller>
+            <parent>wcf.acp.menu.link.jcoins</parent>
+            <permissions>admin.jcoins.voucher.canManage</permissions>
+        </acpmenuitem>
+
+        <acpmenuitem name="wcf.acp.menu.link.voucherJCoins.category.add">
+            <controller>wcf\acp\form\JCoinsVoucherCategoryAddForm</controller>
+            <parent>wcf.acp.menu.link.voucherJCoins.category.list</parent>
+            <permissions>admin.jcoins.voucher.canManage</permissions>
+            <icon>fa-plus</icon>
+        </acpmenuitem>
+
+        <acpmenuitem name="wcf.acp.menu.link.voucherJCoins.list">
+            <controller>wcf\acp\page\JCoinsVoucherListPage</controller>
+            <parent>wcf.acp.menu.link.jcoins</parent>
+            <options>module_jcoins,module_jcoins_voucher</options>
+            <permissions>admin.jcoins.voucher.canManage</permissions>
+        </acpmenuitem>
+        <acpmenuitem name="wcf.acp.menu.link.voucherJCoins.add">
+            <controller>wcf\acp\form\JCoinsVoucherAddForm</controller>
+            <parent>wcf.acp.menu.link.voucherJCoins.list</parent>
+            <options>module_jcoins,module_jcoins_voucher</options>
+            <permissions>admin.jcoins.voucher.canManage</permissions>
+            <icon>fa-plus</icon>
+        </acpmenuitem>
+        <acpmenuitem name="wcf.acp.menu.link.voucherJCoins.log.list">
+            <controller>wcf\acp\page\JCoinsVoucherLogListPage</controller>
+            <parent>wcf.acp.menu.link.jcoins</parent>
+            <options>module_jcoins,module_jcoins_voucher</options>
+            <permissions>admin.jcoins.voucher.canManage</permissions>
+        </acpmenuitem>
+    </import>
 </data>

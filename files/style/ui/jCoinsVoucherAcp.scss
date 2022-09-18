@@ -1,155 +1,155 @@
 .jcoinsVoucherAcpList {
-	margin-left: -10px;
-	margin-right: -10px;
-	
-	@include screen-xs {
-		width: 500px;
-		display: flex;
-		flex-wrap: wrap;
-		margin-bottom: -20px;
-	}
-	
-	@include screen-md-up {
-		width: 1000px;
-		display: flex;
-		flex-wrap: wrap;
-		margin-bottom: -20px;
-	}
-	
-	> li {
-		overflow: hidden;
-		padding-left: 10px;
-		padding-right: 10px;
-		
-		@include screen-sm-down {
-			&:not(:last-child) {
-				margin-bottom: 20px;
-			}
-		}
-		
-		@include screen-md-up {
-			flex: 0 0 50%;
-			margin-bottom: 20px;
-			max-width: 50%;
-		}
-	}
-	
-	.jcoinsVoucherAcpDiv {
-		border: 1px solid $wcfContentBorderInner;
-		
-		> .box128 {
-			color: inherit;
-			padding: 20px;
-		}
-		
-		@include screen-xs {
-			> .box128 {
-				padding: 10px;
-				
-			}
-			
-			.jcoinsVoucherAcpImage {
-				margin-right: 10px;
-				
-				img {
-					height: 64px !important;
-					width: 64px !important;
-				}
-			}
-		}
-		
-		&:hover {
-			.jcoinsVoucherAcpRedeem {
-				display: block;
-				
-				+ .jcoinsVoucherAcpStats {
-					display: none;
-				}
-			}
-		}
-	}
-	
-	.jcoinsVoucherAcpStats, .jcoinsVoucherAcpRedeem {
-		padding: 10px;
-	}
-	
-	.jcoinsVoucherAcpAction {
-		background-color: $wcfTabularBoxBackgroundActive;
-		border-top: 1px solid $wcfContentBorderInner;
-	}
-	
-	.jcoinsVoucherAcpStats {
-		justify-content: center;
-		
-		> li {
-			&:not(:last-child) {
-				margin-right: 10px;
-			}
-		}
-	}
-	
-	.jcoinsVoucherAcpRedeem {
-		display: none;
-		
-		> a {
-			display: block;
-			text-align: center;
-		}
-		
-		> p {
-			display: block;
-			text-align: center;
-			color: $wcfContentLinkActive;
-		}
-	}
-	
-	.jcoinsVoucherAcpSubject {
-		padding-top: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-	//	max-height: 100px;
-	//	overflow: hidden;
-	}
-	
-	.jcoinsVoucherAcpFooter {
-		padding-bottom: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-	//	max-height: 100px;
-	//	overflow: hidden;
-	}
+    margin-left: -10px;
+    margin-right: -10px;
+
+    @include screen-xs {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -20px;
+    }
+
+    @include screen-md-up {
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -20px;
+    }
+
+    > li {
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        @include screen-sm-down {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+
+        @include screen-md-up {
+            flex: 0 0 50%;
+            margin-bottom: 20px;
+            max-width: 50%;
+        }
+    }
+
+    .jcoinsVoucherAcpDiv {
+        border: 1px solid $wcfContentBorderInner;
+
+        > .box128 {
+            color: inherit;
+            padding: 20px;
+        }
+
+        @include screen-xs {
+            > .box128 {
+                padding: 10px;
+
+            }
+
+            .jcoinsVoucherAcpImage {
+                margin-right: 10px;
+
+                img {
+                    height: 64px !important;
+                    width: 64px !important;
+                }
+            }
+        }
+
+        &:hover {
+            .jcoinsVoucherAcpRedeem {
+                display: block;
+
+                + .jcoinsVoucherAcpStats {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .jcoinsVoucherAcpStats, .jcoinsVoucherAcpRedeem {
+        padding: 10px;
+    }
+
+    .jcoinsVoucherAcpAction {
+        background-color: $wcfTabularBoxBackgroundActive;
+        border-top: 1px solid $wcfContentBorderInner;
+    }
+
+    .jcoinsVoucherAcpStats {
+        justify-content: center;
+
+        > li {
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .jcoinsVoucherAcpRedeem {
+        display: none;
+
+        > a {
+            display: block;
+            text-align: center;
+        }
+
+        > p {
+            display: block;
+            text-align: center;
+            color: $wcfContentLinkActive;
+        }
+    }
+
+    .jcoinsVoucherAcpSubject {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    //    max-height: 100px;
+    //    overflow: hidden;
+    }
+
+    .jcoinsVoucherAcpFooter {
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    //    max-height: 100px;
+    //    overflow: hidden;
+    }
 }
 
 .jcoinsVoucherAcpRedeemed {
-	position: relative;
-	
-	&::before {
-		display: block;
-		font-family: FontAwesome;
-		position: absolute;
-		
-		@include screen-md-up {
-			font-size: 42px;
-		}
-		
-		@include screen-sm-down {
-			font-size: 28px;
-		}
-	}
+    position: relative;
+
+    &::before {
+        display: block;
+        font-family: FontAwesome;
+        position: absolute;
+
+        @include screen-md-up {
+            font-size: 42px;
+        }
+
+        @include screen-sm-down {
+            font-size: 28px;
+        }
+    }
 }
 
 .jcoinsVoucherAcpRedeemed::before {
-	color: rgb(0, 140, 0);
-	content: $fa-var-check;
-	opacity: 0.85;
-	
-	@include screen-md-up {
-		left: 13px;
-		top: -2px;
-	}
-	
-	@include screen-sm-down {
-		left: 3px;
-		top: -4px;
-	}
+    color: rgb(0, 140, 0);
+    content: $fa-var-check;
+    opacity: 0.85;
+
+    @include screen-md-up {
+        left: 13px;
+        top: -2px;
+    }
+
+    @include screen-sm-down {
+        left: 3px;
+        top: -4px;
+    }
 }

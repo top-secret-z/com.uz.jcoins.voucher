@@ -1,188 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
-	<category name="wcf.acp.menu">
-		<item name="wcf.acp.menu.link.voucherJCoins.category.add"><![CDATA[Kategorie hinzufügen]]></item>
-		<item name="wcf.acp.menu.link.voucherJCoins.category.list"><![CDATA[Gutschein-Kategorien]]></item>
-		<item name="wcf.acp.menu.link.voucherJCoins.add"><![CDATA[Gutschein hinzufügen]]></item>
-		<item name="wcf.acp.menu.link.voucherJCoins.list"><![CDATA[Gutscheine]]></item>
-		<item name="wcf.acp.menu.link.voucherJCoins.log.list"><![CDATA[Gutschein-Protokoll]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.admin.jcoins.voucher.canManage"><![CDATA[Kann JCoins-Gutscheine verwalten]]></item>
-		<item name="wcf.acp.group.option.user.jcoins.voucher.canSee"><![CDATA[Kann JCoins-Gutscheine nutzen]]></item>
-	</category>
-	
-	<category name="wcf.acp.jcoinsVoucher">
-		<item name="wcf.acp.jcoinsVoucher.action"><![CDATA[Aktion]]></item>
-		<item name="wcf.acp.jcoinsVoucher.action.created"><![CDATA[erstellt]]></item>
-		<item name="wcf.acp.jcoinsVoucher.action.deleted"><![CDATA[gelöscht]]></item>
-		<item name="wcf.acp.jcoinsVoucher.action.expired"><![CDATA[abgelaufen]]></item>
-		<item name="wcf.acp.jcoinsVoucher.action.issued"><![CDATA[verteilt]]></item>
-		<item name="wcf.acp.jcoinsVoucher.action.published"><![CDATA[veröffentlicht]]></item>
-		<item name="wcf.acp.jcoinsVoucher.action.redeemed"><![CDATA[eingelöst]]></item>
-		<item name="wcf.acp.jcoinsVoucher.action.updated"><![CDATA[geändert]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.add"><![CDATA[Gutschein hinzufügen]]></item>
-		<item name="wcf.acp.jcoinsVoucher.categories"><![CDATA[Kategorien]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.codeNumber"><![CDATA[Anzahl der Codes]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.codeNumber.description"><![CDATA[Legt fest, wie viele Codes erzeugt werden. Die Codes werden bei jedem Abspeichern der Konfiguration neu erzeugt.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.codeRedeemLimit"><![CDATA[Einlösungen je Code]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.codeRedeemLimit.description"><![CDATA[Legt fest, wie häufig ein Code beim Einlösen eines Gutscheins genutzt werden darf.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.codeUserLimit"><![CDATA[Einlösungen je Mitglied]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.codeUserLimit.description"><![CDATA[Legt fest, wie häufig ein Mitglied einen Code-Gutschein einlösen darf.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.data"><![CDATA[Daten]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.prefix"><![CDATA[Präfix]]></item>
-		<item name="wcf.acp.jcoinsVoucher.code.prefix.description"><![CDATA[Das Präfix wird dem Code vorangestellt. Präfix und Code werden mit „-“ getrennt. Das Präfix ist optional und darf maximal 5 Zeichen lang sein.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.codes"><![CDATA[Codes]]></item>
-		<item name="wcf.acp.jcoinsVoucher.codes.link"><![CDATA[Link zum Code-Gutschein:]]></item>
-		<item name="wcf.acp.jcoinsVoucher.codes.total"><![CDATA[Codes verfügbar:]]></item>
-		<item name="wcf.acp.jcoinsVoucher.codes.used"><![CDATA[Codes verbraucht:]]></item>
-		<item name="wcf.acp.jcoinsVoucher.conditions"><![CDATA[Mitglieder]]></item>
-		<item name="wcf.acp.jcoinsVoucher.config"><![CDATA[Feste Konfiguration]]></item>
-		<item name="wcf.acp.jcoinsVoucher.content"><![CDATA[Inhalt]]></item>
-		<item name="wcf.acp.jcoinsVoucher.copy"><![CDATA[Gutschein kopieren]]></item>
-		<item name="wcf.acp.jcoinsVoucher.copy.confirm"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Gutschein wirklich kopieren?]]></item>
-		<item name="wcf.acp.jcoinsVoucher.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Gutschein wirklich löschen?]]></item>
-		<item name="wcf.acp.jcoinsVoucher.detail"><![CDATA[Details]]></item>
-		<item name="wcf.acp.jcoinsVoucher.edit"><![CDATA[Gutschein bearbeiten]]></item>
-		<item name="wcf.acp.jcoinsVoucher.edit.limited"><![CDATA[Nach Aktivierung und Verteilung kann der Gutschein nur noch eingeschränkt bearbeitet werden.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.footer"><![CDATA[Fußzeile]]></item>
-		<item name="wcf.acp.jcoinsVoucher.general"><![CDATA[Allgemein]]></item>
-		<item name="wcf.acp.jcoinsVoucher.image"><![CDATA[Bild]]></item>
-		<item name="wcf.acp.jcoinsVoucher.image.description"><![CDATA[Das Bild sollte mindestens 144 x 144 px groß sein.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.jcoins"><![CDATA[JCoins]]></item>
-		<item name="wcf.acp.jcoinsVoucher.jcoins.description"><![CDATA[Wert des Gutscheins.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.hasRedeemed"><![CDATA[Eingelöst am {@TIME_NOW|date}]]></item>
-		<item name="wcf.acp.jcoinsVoucher.limits"><![CDATA[Limits]]></item>
-		<item name="wcf.acp.jcoinsVoucher.list"><![CDATA[Gutscheine]]></item>
-		<item name="wcf.acp.jcoinsVoucher.log.clear"><![CDATA[Protokoll löschen]]></item>
-		<item name="wcf.acp.jcoinsVoucher.log.clear.confirm"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Protokoll wirklich löschen?]]></item>
-		<item name="wcf.acp.jcoinsVoucher.subject"><![CDATA[Titel]]></item>
-		<item name="wcf.acp.jcoinsVoucher.text"><![CDATA[Text]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.expiration"><![CDATA[Ablauf]]></item>
-		<item name="wcf.acp.jcoinsVoucher.expiration.date"><![CDATA[Datum]]></item>
-		<item name="wcf.acp.jcoinsVoucher.expiration.date.error.invalid"><![CDATA[Ungültiges Datum. Unter anderem muss das Datum in der Zukunft liegen.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.expiration.status"><![CDATA[Status]]></item>
-		<item name="wcf.acp.jcoinsVoucher.expiration.status.date"><![CDATA[Datum]]></item>
-		<item name="wcf.acp.jcoinsVoucher.expiration.status.no"><![CDATA[nie]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.no"><![CDATA[nein]]></item>
-		<item name="wcf.acp.jcoinsVoucher.notify"><![CDATA[Benachrichtigung]]></item>
-		<item name="wcf.acp.jcoinsVoucher.notify.enable"><![CDATA[Aktivieren]]></item>
-		<item name="wcf.acp.jcoinsVoucher.notify.description"><![CDATA[Die Mitglieder werden mit einer System-Benachrichtigung über die Verfügbarkeit des Gutscheins informiert.]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.period"><![CDATA[Wiederholung]]></item>
-		<item name="wcf.acp.jcoinsVoucher.period.day"><![CDATA[Tag(e)]]></item>
-		<item name="wcf.acp.jcoinsVoucher.period.month"><![CDATA[Monat(e)]]></item>
-		<item name="wcf.acp.jcoinsVoucher.period.week"><![CDATA[Woche(n)]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.preview"><![CDATA[Vorschau]]></item>
-		<item name="wcf.acp.jcoinsVoucher.publicationDate"><![CDATA[Freigabedatum]]></item>
-		<item name="wcf.acp.jcoinsVoucher.publicationDate.error.invalid"><![CDATA[Ungültiges Datum. Unter anderem muss das Datum in der Zukunft liegen.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.publicationStatus"><![CDATA[Freigabe]]></item>
-		<item name="wcf.acp.jcoinsVoucher.publicationStatus.no"><![CDATA[sofort]]></item>
-		<item name="wcf.acp.jcoinsVoucher.publicationStatus.yes"><![CDATA[später]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.redemption"><![CDATA[Einlösungen]]></item>
-		<item name="wcf.acp.jcoinsVoucher.redemption.limit"><![CDATA[Anzahl]]></item>
-		<item name="wcf.acp.jcoinsVoucher.redemption.limit.description"><![CDATA[Nach Erreichen der Anzahl wird der Gutschein automatisch deaktiviert. „0“ eingeben, um die Anzahl der Einlösungen nicht zu beschränken.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.redemption.limit.error.must"><![CDATA[Es muss eine Anzahl > 0 eingegeben werden.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.redemption.limit.recurring"><![CDATA[{$voucher->redeemLimit} ({$voucher->redeemLimitStart})]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.raffle"><![CDATA[Verlosung]]></item>
-		<item name="wcf.acp.jcoinsVoucher.raffle.enable"><![CDATA[Aktivieren]]></item>
-		<item name="wcf.acp.jcoinsVoucher.raffle.description"><![CDATA[Der Gutschein wird unter den gewählten Mitgliedern verlost. Die Anzahl der Mitglieder, die den Gutschein erhalten, entspricht der Konfiguration für „Einlösungen“ (Limits).]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.time"><![CDATA[Zeit]]></item>
-		<item name="wcf.acp.jcoinsVoucher.title"><![CDATA[Titel]]></item>
-		<item name="wcf.acp.jcoinsVoucher.title.description"><![CDATA[Kurzer Titel für die Anzeige im ACP. Es sind maximal 80 Zeichen erlaubt.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.title.error.required"><![CDATA[Es muss ein Titel eingegeben werden.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.title.error.tooLong"><![CDATA[Der Titel darf nur maximal 80 Zeichen lang sein.]]></item>
-		
-		<item name="wcf.acp.jcoinsVoucher.type"><![CDATA[Art]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.birthday"><![CDATA[Geburtstag]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.code"><![CDATA[Code]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.code.description"><![CDATA[Benutzer müssen einen Code ingeben, um den Gutschein einzulösen.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.birthday.description"><![CDATA[Der Gutschein wird täglich an Mitglieder verteilt, die Geburtstag haben.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.error.missing"><![CDATA[Es muss eine Art ausgewählt werden.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.membership"><![CDATA[Mitgliedschaft]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.membership.description"><![CDATA[Der Gutschein wird täglich an Mitglieder verteilt, die ein Mitgliedschaftsjubiläum haben.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.normal"><![CDATA[einmalig]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.normal.description"><![CDATA[Der Gutschein wird einmalig verteilt.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.recurring"><![CDATA[wiederholend]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.recurring.description"><![CDATA[Der Gutschein wird wiederholend verteilt. Die Wiederholfrequenz muss nachfolgend konfiguriert werden.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.registration"><![CDATA[Registrierung]]></item>
-		<item name="wcf.acp.jcoinsVoucher.type.registration.description"><![CDATA[Der Gutschein wird an neu registrierte Mitglieder verteilt.]]></item>
-		<item name="wcf.acp.jcoinsVoucher.user"><![CDATA[Benutzer]]></item>
-		<item name="wcf.acp.jcoinsVoucher.yes"><![CDATA[ja]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.user.jcoins.voucher"><![CDATA[JCoins-Gutscheine]]></item>
-		<item name="wcf.acp.option.jcoins_voucher_items_per_page"><![CDATA[Gutscheine je Seite]]></item>
-		<item name="wcf.acp.option.jcoins_voucher_log_delete"><![CDATA[Protokoll löschen]]></item>
-		<item name="wcf.acp.option.jcoins_voucher_log_delete.description"><![CDATA[Legt fest, nach welchem Zeitraum alte Protokolleinträge gelöscht werden. „0“ eingeben, um das Protokoll nicht zu löschen.]]></item>
-		<item name="wcf.acp.option.module_jcoins_voucher"><![CDATA[JCoins-Gutscheine aktivieren]]></item>
-	</category>
-	
-	<category name="wcf.acp.rebuildData">
-		<item name="wcf.acp.rebuildData.com.uz.jcoins.voucher"><![CDATA[Gutscheine aktualisieren]]></item>
-		<item name="wcf.acp.rebuildData.com.uz.jcoins.voucher.description"><![CDATA[Aktualisiert Gutscheinzähler der Benutzer.]]></item>
-	</category>
-	
-	<category name="wcf.acp.stat">
-		<item name="wcf.acp.stat.com.uz.jcoins.voucher.stats"><![CDATA[Eingelöste JCoins-Gutscheine]]></item>
-	</category>
-	
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.com.uz.jcoins.voucher.statement.voucher"><![CDATA[Gutschein eingelöst]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.voucher.statement.voucher"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen <a href="{link controller='JCoinsVoucher'}voucherID={$statement->voucherID}{/link}">Gutschein</a> eingelöst.]]></item>
-	</category>
-	
-	<category name="wcf.user.condition">
-		<item name="wcf.user.condition.jCoinsVouchers"><![CDATA[Eingelöste Gutscheine]]></item>
-	</category>
-	
-	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.com.uz.jcoins.voucher.notification.jCoinsVoucher"><![CDATA[Gutschein erhalten]]></item>
-		<item name="wcf.user.notification.jcoins.voucher.title"><![CDATA[Gutschein erhalten]]></item>
-		<item name="wcf.user.notification.jcoins.voucher.message"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen <a href="{@$userNotificationObject->getLink()}">Gutschein</a> erhalten.]]></item>
-		<item name="wcf.user.notification.jcoins.voucher.mail.plaintext"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen Gutschein erhalten: [URL:{link controller='JCoinsVoucher' isEmail=true}voucherID={$event->getUserNotificationObject()->voucherID}{/link}]]]></item>
-		<item name="wcf.user.notification.jcoins.voucher.mail.html"><![CDATA[<p>{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen <a href="{$event->getUserNotificationObject()->getLink()}">Gutschein</a> von „{PAGE_TITLE}“ erhalten.</p>]]></item>
-	</category>
-	
-	<category name="wcf.jcoins.voucher">
-		<item name="wcf.jcoins.voucher.categories"><![CDATA[Kategorien]]></item>
-		<item name="wcf.jcoins.voucher.code.input"><![CDATA[Code-Eingabe]]></item>
-		<item name="wcf.jcoins.voucher.code.input.description"><![CDATA[Bitte geben Sie hier den Code ein.]]></item>
-		<item name="wcf.jcoins.voucher.codeError.codeRedeemLimit"><![CDATA[Der Code darf nicht mehr genutzt werden; die Anzahl der Nutzungen ist begrenzt]]></item>
-		<item name="wcf.jcoins.voucher.codeError.expired"><![CDATA[Der Gutschein ist abgelaufen.]]></item>
-		<item name="wcf.jcoins.voucher.codeError.invalid"><![CDATA[Der Code existiert nicht.]]></item>
-		<item name="wcf.jcoins.voucher.codeError.userRedeemLimit"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du darfst{else}Sie dürfen{/if} den Gutschein nicht mehr einlösen; die Anzahl der Einlösungen ist begrenzt.]]></item>
-		<item name="wcf.jcoins.voucher.displayOptions"><![CDATA[Anzeigeoptionen]]></item>
-		
-		<item name="wcf.jcoins.voucher.item.date"><![CDATA[{@$voucher->changeTime|date}]]></item>
-		<item name="wcf.jcoins.voucher.item.hasExpired"><![CDATA[Abgelaufen am {@$voucher->expirationDate|date}]]></item>
-		<item name="wcf.jcoins.voucher.item.hasRedeemed"><![CDATA[Eingelöst am {@$voucher->hasRedeemed()|date}]]></item>
-		<item name="wcf.jcoins.voucher.item.jcoins"><![CDATA[{@$voucher->jCoins} {JCOINS_NAME}]]></item>
-		<item name="wcf.jcoins.voucher.item.redeem"><![CDATA[Einlösen]]></item>
-		<item name="wcf.jcoins.voucher.item.redeem.again"><![CDATA[Erneut einlösen]]></item>
-		<item name="wcf.jcoins.voucher.item.redeem.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Gutschein wirklich einlösen?]]></item>
-		<item name="wcf.jcoins.voucher.item.redeemed"><![CDATA[{@$voucher->redeemed|shortUnit} {if $voucher->redeemed == 1}Einlösung{else}Einlösungen{/if}]]></item>
-		
-		<item name="wcf.jcoins.voucher.page"><![CDATA[Gutscheine]]></item>
-		<item name="wcf.jcoins.voucher.page.categorized"><![CDATA[Gutscheine aus der Kategorie „{$category->getTitle()}“]]></item>
-		<item name="wcf.jcoins.voucher.page.voucher"><![CDATA[Ausgewählter Gutschein]]></item>
-		<item name="wcf.jcoins.voucher.sortBy"><![CDATA[Sortierung]]></item>
-		<item name="wcf.jcoins.voucher.sort.changeTime"><![CDATA[Zeit]]></item>
-		<item name="wcf.jcoins.voucher.sort.jCoins"><![CDATA[Gutschrift]]></item>
-		<item name="wcf.jcoins.voucher.sort.redeemed"><![CDATA[Einlösungen]]></item>
-		<item name="wcf.jcoins.voucher.success"><![CDATA[Die Aktion wurde erfolgreich ausgeführt.]]></item>
-	</category>
-	
-	<category name="jcoins.voucher.category">
-		<item name="jcoins.voucher.category.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diese Kategorie wirklich löschen? Alle sich in dieser Kategorie befindlichen Unterkategorien werden in die Elternkategorie dieser Kategorie verschoben und Gutscheine, die sich ausschließlich in dieser Kategorie befinden, werden gelöscht.]]></item>
-	</category>
+    <category name="wcf.acp.menu">
+        <item name="wcf.acp.menu.link.voucherJCoins.category.add"><![CDATA[Kategorie hinzufügen]]></item>
+        <item name="wcf.acp.menu.link.voucherJCoins.category.list"><![CDATA[Gutschein-Kategorien]]></item>
+        <item name="wcf.acp.menu.link.voucherJCoins.add"><![CDATA[Gutschein hinzufügen]]></item>
+        <item name="wcf.acp.menu.link.voucherJCoins.list"><![CDATA[Gutscheine]]></item>
+        <item name="wcf.acp.menu.link.voucherJCoins.log.list"><![CDATA[Gutschein-Protokoll]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.admin.jcoins.voucher.canManage"><![CDATA[Kann JCoins-Gutscheine verwalten]]></item>
+        <item name="wcf.acp.group.option.user.jcoins.voucher.canSee"><![CDATA[Kann JCoins-Gutscheine nutzen]]></item>
+    </category>
+
+    <category name="wcf.acp.jcoinsVoucher">
+        <item name="wcf.acp.jcoinsVoucher.action"><![CDATA[Aktion]]></item>
+        <item name="wcf.acp.jcoinsVoucher.action.created"><![CDATA[erstellt]]></item>
+        <item name="wcf.acp.jcoinsVoucher.action.deleted"><![CDATA[gelöscht]]></item>
+        <item name="wcf.acp.jcoinsVoucher.action.expired"><![CDATA[abgelaufen]]></item>
+        <item name="wcf.acp.jcoinsVoucher.action.issued"><![CDATA[verteilt]]></item>
+        <item name="wcf.acp.jcoinsVoucher.action.published"><![CDATA[veröffentlicht]]></item>
+        <item name="wcf.acp.jcoinsVoucher.action.redeemed"><![CDATA[eingelöst]]></item>
+        <item name="wcf.acp.jcoinsVoucher.action.updated"><![CDATA[geändert]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.add"><![CDATA[Gutschein hinzufügen]]></item>
+        <item name="wcf.acp.jcoinsVoucher.categories"><![CDATA[Kategorien]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.codeNumber"><![CDATA[Anzahl der Codes]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.codeNumber.description"><![CDATA[Legt fest, wie viele Codes erzeugt werden. Die Codes werden bei jedem Abspeichern der Konfiguration neu erzeugt.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.codeRedeemLimit"><![CDATA[Einlösungen je Code]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.codeRedeemLimit.description"><![CDATA[Legt fest, wie häufig ein Code beim Einlösen eines Gutscheins genutzt werden darf.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.codeUserLimit"><![CDATA[Einlösungen je Mitglied]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.codeUserLimit.description"><![CDATA[Legt fest, wie häufig ein Mitglied einen Code-Gutschein einlösen darf.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.data"><![CDATA[Daten]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.prefix"><![CDATA[Präfix]]></item>
+        <item name="wcf.acp.jcoinsVoucher.code.prefix.description"><![CDATA[Das Präfix wird dem Code vorangestellt. Präfix und Code werden mit „-“ getrennt. Das Präfix ist optional und darf maximal 5 Zeichen lang sein.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.codes"><![CDATA[Codes]]></item>
+        <item name="wcf.acp.jcoinsVoucher.codes.link"><![CDATA[Link zum Code-Gutschein:]]></item>
+        <item name="wcf.acp.jcoinsVoucher.codes.total"><![CDATA[Codes verfügbar:]]></item>
+        <item name="wcf.acp.jcoinsVoucher.codes.used"><![CDATA[Codes verbraucht:]]></item>
+        <item name="wcf.acp.jcoinsVoucher.conditions"><![CDATA[Mitglieder]]></item>
+        <item name="wcf.acp.jcoinsVoucher.config"><![CDATA[Feste Konfiguration]]></item>
+        <item name="wcf.acp.jcoinsVoucher.content"><![CDATA[Inhalt]]></item>
+        <item name="wcf.acp.jcoinsVoucher.copy"><![CDATA[Gutschein kopieren]]></item>
+        <item name="wcf.acp.jcoinsVoucher.copy.confirm"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Gutschein wirklich kopieren?]]></item>
+        <item name="wcf.acp.jcoinsVoucher.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Gutschein wirklich löschen?]]></item>
+        <item name="wcf.acp.jcoinsVoucher.detail"><![CDATA[Details]]></item>
+        <item name="wcf.acp.jcoinsVoucher.edit"><![CDATA[Gutschein bearbeiten]]></item>
+        <item name="wcf.acp.jcoinsVoucher.edit.limited"><![CDATA[Nach Aktivierung und Verteilung kann der Gutschein nur noch eingeschränkt bearbeitet werden.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.footer"><![CDATA[Fußzeile]]></item>
+        <item name="wcf.acp.jcoinsVoucher.general"><![CDATA[Allgemein]]></item>
+        <item name="wcf.acp.jcoinsVoucher.image"><![CDATA[Bild]]></item>
+        <item name="wcf.acp.jcoinsVoucher.image.description"><![CDATA[Das Bild sollte mindestens 144 x 144 px groß sein.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.jcoins"><![CDATA[JCoins]]></item>
+        <item name="wcf.acp.jcoinsVoucher.jcoins.description"><![CDATA[Wert des Gutscheins.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.hasRedeemed"><![CDATA[Eingelöst am {@TIME_NOW|date}]]></item>
+        <item name="wcf.acp.jcoinsVoucher.limits"><![CDATA[Limits]]></item>
+        <item name="wcf.acp.jcoinsVoucher.list"><![CDATA[Gutscheine]]></item>
+        <item name="wcf.acp.jcoinsVoucher.log.clear"><![CDATA[Protokoll löschen]]></item>
+        <item name="wcf.acp.jcoinsVoucher.log.clear.confirm"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} das Protokoll wirklich löschen?]]></item>
+        <item name="wcf.acp.jcoinsVoucher.subject"><![CDATA[Titel]]></item>
+        <item name="wcf.acp.jcoinsVoucher.text"><![CDATA[Text]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.expiration"><![CDATA[Ablauf]]></item>
+        <item name="wcf.acp.jcoinsVoucher.expiration.date"><![CDATA[Datum]]></item>
+        <item name="wcf.acp.jcoinsVoucher.expiration.date.error.invalid"><![CDATA[Ungültiges Datum. Unter anderem muss das Datum in der Zukunft liegen.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.expiration.status"><![CDATA[Status]]></item>
+        <item name="wcf.acp.jcoinsVoucher.expiration.status.date"><![CDATA[Datum]]></item>
+        <item name="wcf.acp.jcoinsVoucher.expiration.status.no"><![CDATA[nie]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.no"><![CDATA[nein]]></item>
+        <item name="wcf.acp.jcoinsVoucher.notify"><![CDATA[Benachrichtigung]]></item>
+        <item name="wcf.acp.jcoinsVoucher.notify.enable"><![CDATA[Aktivieren]]></item>
+        <item name="wcf.acp.jcoinsVoucher.notify.description"><![CDATA[Die Mitglieder werden mit einer System-Benachrichtigung über die Verfügbarkeit des Gutscheins informiert.]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.period"><![CDATA[Wiederholung]]></item>
+        <item name="wcf.acp.jcoinsVoucher.period.day"><![CDATA[Tag(e)]]></item>
+        <item name="wcf.acp.jcoinsVoucher.period.month"><![CDATA[Monat(e)]]></item>
+        <item name="wcf.acp.jcoinsVoucher.period.week"><![CDATA[Woche(n)]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.preview"><![CDATA[Vorschau]]></item>
+        <item name="wcf.acp.jcoinsVoucher.publicationDate"><![CDATA[Freigabedatum]]></item>
+        <item name="wcf.acp.jcoinsVoucher.publicationDate.error.invalid"><![CDATA[Ungültiges Datum. Unter anderem muss das Datum in der Zukunft liegen.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.publicationStatus"><![CDATA[Freigabe]]></item>
+        <item name="wcf.acp.jcoinsVoucher.publicationStatus.no"><![CDATA[sofort]]></item>
+        <item name="wcf.acp.jcoinsVoucher.publicationStatus.yes"><![CDATA[später]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.redemption"><![CDATA[Einlösungen]]></item>
+        <item name="wcf.acp.jcoinsVoucher.redemption.limit"><![CDATA[Anzahl]]></item>
+        <item name="wcf.acp.jcoinsVoucher.redemption.limit.description"><![CDATA[Nach Erreichen der Anzahl wird der Gutschein automatisch deaktiviert. „0“ eingeben, um die Anzahl der Einlösungen nicht zu beschränken.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.redemption.limit.error.must"><![CDATA[Es muss eine Anzahl > 0 eingegeben werden.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.redemption.limit.recurring"><![CDATA[{$voucher->redeemLimit} ({$voucher->redeemLimitStart})]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.raffle"><![CDATA[Verlosung]]></item>
+        <item name="wcf.acp.jcoinsVoucher.raffle.enable"><![CDATA[Aktivieren]]></item>
+        <item name="wcf.acp.jcoinsVoucher.raffle.description"><![CDATA[Der Gutschein wird unter den gewählten Mitgliedern verlost. Die Anzahl der Mitglieder, die den Gutschein erhalten, entspricht der Konfiguration für „Einlösungen“ (Limits).]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.time"><![CDATA[Zeit]]></item>
+        <item name="wcf.acp.jcoinsVoucher.title"><![CDATA[Titel]]></item>
+        <item name="wcf.acp.jcoinsVoucher.title.description"><![CDATA[Kurzer Titel für die Anzeige im ACP. Es sind maximal 80 Zeichen erlaubt.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.title.error.required"><![CDATA[Es muss ein Titel eingegeben werden.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.title.error.tooLong"><![CDATA[Der Titel darf nur maximal 80 Zeichen lang sein.]]></item>
+
+        <item name="wcf.acp.jcoinsVoucher.type"><![CDATA[Art]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.birthday"><![CDATA[Geburtstag]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.code"><![CDATA[Code]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.code.description"><![CDATA[Benutzer müssen einen Code ingeben, um den Gutschein einzulösen.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.birthday.description"><![CDATA[Der Gutschein wird täglich an Mitglieder verteilt, die Geburtstag haben.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.error.missing"><![CDATA[Es muss eine Art ausgewählt werden.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.membership"><![CDATA[Mitgliedschaft]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.membership.description"><![CDATA[Der Gutschein wird täglich an Mitglieder verteilt, die ein Mitgliedschaftsjubiläum haben.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.normal"><![CDATA[einmalig]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.normal.description"><![CDATA[Der Gutschein wird einmalig verteilt.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.recurring"><![CDATA[wiederholend]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.recurring.description"><![CDATA[Der Gutschein wird wiederholend verteilt. Die Wiederholfrequenz muss nachfolgend konfiguriert werden.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.registration"><![CDATA[Registrierung]]></item>
+        <item name="wcf.acp.jcoinsVoucher.type.registration.description"><![CDATA[Der Gutschein wird an neu registrierte Mitglieder verteilt.]]></item>
+        <item name="wcf.acp.jcoinsVoucher.user"><![CDATA[Benutzer]]></item>
+        <item name="wcf.acp.jcoinsVoucher.yes"><![CDATA[ja]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.user.jcoins.voucher"><![CDATA[JCoins-Gutscheine]]></item>
+        <item name="wcf.acp.option.jcoins_voucher_items_per_page"><![CDATA[Gutscheine je Seite]]></item>
+        <item name="wcf.acp.option.jcoins_voucher_log_delete"><![CDATA[Protokoll löschen]]></item>
+        <item name="wcf.acp.option.jcoins_voucher_log_delete.description"><![CDATA[Legt fest, nach welchem Zeitraum alte Protokolleinträge gelöscht werden. „0“ eingeben, um das Protokoll nicht zu löschen.]]></item>
+        <item name="wcf.acp.option.module_jcoins_voucher"><![CDATA[JCoins-Gutscheine aktivieren]]></item>
+    </category>
+
+    <category name="wcf.acp.rebuildData">
+        <item name="wcf.acp.rebuildData.com.uz.jcoins.voucher"><![CDATA[Gutscheine aktualisieren]]></item>
+        <item name="wcf.acp.rebuildData.com.uz.jcoins.voucher.description"><![CDATA[Aktualisiert Gutscheinzähler der Benutzer.]]></item>
+    </category>
+
+    <category name="wcf.acp.stat">
+        <item name="wcf.acp.stat.com.uz.jcoins.voucher.stats"><![CDATA[Eingelöste JCoins-Gutscheine]]></item>
+    </category>
+
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.com.uz.jcoins.voucher.statement.voucher"><![CDATA[Gutschein eingelöst]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.jcoins.voucher.statement.voucher"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen <a href="{link controller='JCoinsVoucher'}voucherID={$statement->voucherID}{/link}">Gutschein</a> eingelöst.]]></item>
+    </category>
+
+    <category name="wcf.user.condition">
+        <item name="wcf.user.condition.jCoinsVouchers"><![CDATA[Eingelöste Gutscheine]]></item>
+    </category>
+
+    <category name="wcf.user.notification">
+        <item name="wcf.user.notification.com.uz.jcoins.voucher.notification.jCoinsVoucher"><![CDATA[Gutschein erhalten]]></item>
+        <item name="wcf.user.notification.jcoins.voucher.title"><![CDATA[Gutschein erhalten]]></item>
+        <item name="wcf.user.notification.jcoins.voucher.message"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen <a href="{@$userNotificationObject->getLink()}">Gutschein</a> erhalten.]]></item>
+        <item name="wcf.user.notification.jcoins.voucher.mail.plaintext"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen Gutschein erhalten: [URL:{link controller='JCoinsVoucher' isEmail=true}voucherID={$event->getUserNotificationObject()->voucherID}{/link}]]]></item>
+        <item name="wcf.user.notification.jcoins.voucher.mail.html"><![CDATA[<p>{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen <a href="{$event->getUserNotificationObject()->getLink()}">Gutschein</a> von „{PAGE_TITLE}“ erhalten.</p>]]></item>
+    </category>
+
+    <category name="wcf.jcoins.voucher">
+        <item name="wcf.jcoins.voucher.categories"><![CDATA[Kategorien]]></item>
+        <item name="wcf.jcoins.voucher.code.input"><![CDATA[Code-Eingabe]]></item>
+        <item name="wcf.jcoins.voucher.code.input.description"><![CDATA[Bitte geben Sie hier den Code ein.]]></item>
+        <item name="wcf.jcoins.voucher.codeError.codeRedeemLimit"><![CDATA[Der Code darf nicht mehr genutzt werden; die Anzahl der Nutzungen ist begrenzt]]></item>
+        <item name="wcf.jcoins.voucher.codeError.expired"><![CDATA[Der Gutschein ist abgelaufen.]]></item>
+        <item name="wcf.jcoins.voucher.codeError.invalid"><![CDATA[Der Code existiert nicht.]]></item>
+        <item name="wcf.jcoins.voucher.codeError.userRedeemLimit"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du darfst{else}Sie dürfen{/if} den Gutschein nicht mehr einlösen; die Anzahl der Einlösungen ist begrenzt.]]></item>
+        <item name="wcf.jcoins.voucher.displayOptions"><![CDATA[Anzeigeoptionen]]></item>
+
+        <item name="wcf.jcoins.voucher.item.date"><![CDATA[{@$voucher->changeTime|date}]]></item>
+        <item name="wcf.jcoins.voucher.item.hasExpired"><![CDATA[Abgelaufen am {@$voucher->expirationDate|date}]]></item>
+        <item name="wcf.jcoins.voucher.item.hasRedeemed"><![CDATA[Eingelöst am {@$voucher->hasRedeemed()|date}]]></item>
+        <item name="wcf.jcoins.voucher.item.jcoins"><![CDATA[{@$voucher->jCoins} {JCOINS_NAME}]]></item>
+        <item name="wcf.jcoins.voucher.item.redeem"><![CDATA[Einlösen]]></item>
+        <item name="wcf.jcoins.voucher.item.redeem.again"><![CDATA[Erneut einlösen]]></item>
+        <item name="wcf.jcoins.voucher.item.redeem.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diesen Gutschein wirklich einlösen?]]></item>
+        <item name="wcf.jcoins.voucher.item.redeemed"><![CDATA[{@$voucher->redeemed|shortUnit} {if $voucher->redeemed == 1}Einlösung{else}Einlösungen{/if}]]></item>
+
+        <item name="wcf.jcoins.voucher.page"><![CDATA[Gutscheine]]></item>
+        <item name="wcf.jcoins.voucher.page.categorized"><![CDATA[Gutscheine aus der Kategorie „{$category->getTitle()}“]]></item>
+        <item name="wcf.jcoins.voucher.page.voucher"><![CDATA[Ausgewählter Gutschein]]></item>
+        <item name="wcf.jcoins.voucher.sortBy"><![CDATA[Sortierung]]></item>
+        <item name="wcf.jcoins.voucher.sort.changeTime"><![CDATA[Zeit]]></item>
+        <item name="wcf.jcoins.voucher.sort.jCoins"><![CDATA[Gutschrift]]></item>
+        <item name="wcf.jcoins.voucher.sort.redeemed"><![CDATA[Einlösungen]]></item>
+        <item name="wcf.jcoins.voucher.success"><![CDATA[Die Aktion wurde erfolgreich ausgeführt.]]></item>
+    </category>
+
+    <category name="jcoins.voucher.category">
+        <item name="jcoins.voucher.category.delete.sure"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Willst du{else}Wollen Sie{/if} diese Kategorie wirklich löschen? Alle sich in dieser Kategorie befindlichen Unterkategorien werden in die Elternkategorie dieser Kategorie verschoben und Gutscheine, die sich ausschließlich in dieser Kategorie befinden, werden gelöscht.]]></item>
+    </category>
 </language>
