@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
-	<import>
-		<jCoinsVoucher name="normal">
-			<typeID>1</typeID>
-			<period>0</period>
-			<raffle>1</raffle>
-			<redeemLimit>1</redeemLimit>
-			<sortOrder>1</sortOrder>
-		</jCoinsVoucher>
-		
-		<jCoinsVoucher name="recurring">
-			<typeID>2</typeID>
-			<period>1</period>
-			<raffle>1</raffle>
-			<redeemLimit>1</redeemLimit>
-			<sortOrder>2</sortOrder>
-		</jCoinsVoucher>
-		
-		<jCoinsVoucher name="birthday">
-			<typeID>3</typeID>
-			<period>0</period>
-			<raffle>0</raffle>
-			<redeemLimit>0</redeemLimit>
-			<sortOrder>3</sortOrder>
-		</jCoinsVoucher>
-		
-		<jCoinsVoucher name="membership">
-			<typeID>4</typeID>
-			<period>0</period>
-			<raffle>0</raffle>
-			<redeemLimit>0</redeemLimit>
-			<sortOrder>4</sortOrder>
-		</jCoinsVoucher>
-		
-		<jCoinsVoucher name="registration">
-			<typeID>5</typeID>
-			<period>0</period>
-			<raffle>0</raffle>
-			<redeemLimit>0</redeemLimit>
-			<sortOrder>5</sortOrder>
-		</jCoinsVoucher>
-		
-		<jCoinsVoucher name="code">
-			<typeID>6</typeID>
-			<period>1</period>
-			<raffle>1</raffle>
-			<redeemLimit>1</redeemLimit>
-			<sortOrder>6</sortOrder>
-		</jCoinsVoucher>
-	</import>
+    <import>
+        <jCoinsVoucher name="normal">
+            <typeID>1</typeID>
+            <period>0</period>
+            <raffle>1</raffle>
+            <redeemLimit>1</redeemLimit>
+            <sortOrder>1</sortOrder>
+        </jCoinsVoucher>
+
+        <jCoinsVoucher name="recurring">
+            <typeID>2</typeID>
+            <period>1</period>
+            <raffle>1</raffle>
+            <redeemLimit>1</redeemLimit>
+            <sortOrder>2</sortOrder>
+        </jCoinsVoucher>
+
+        <jCoinsVoucher name="birthday">
+            <typeID>3</typeID>
+            <period>0</period>
+            <raffle>0</raffle>
+            <redeemLimit>0</redeemLimit>
+            <sortOrder>3</sortOrder>
+        </jCoinsVoucher>
+
+        <jCoinsVoucher name="membership">
+            <typeID>4</typeID>
+            <period>0</period>
+            <raffle>0</raffle>
+            <redeemLimit>0</redeemLimit>
+            <sortOrder>4</sortOrder>
+        </jCoinsVoucher>
+
+        <jCoinsVoucher name="registration">
+            <typeID>5</typeID>
+            <period>0</period>
+            <raffle>0</raffle>
+            <redeemLimit>0</redeemLimit>
+            <sortOrder>5</sortOrder>
+        </jCoinsVoucher>
+
+        <jCoinsVoucher name="code">
+            <typeID>6</typeID>
+            <period>1</period>
+            <raffle>1</raffle>
+            <redeemLimit>1</redeemLimit>
+            <sortOrder>6</sortOrder>
+        </jCoinsVoucher>
+    </import>
 </data>

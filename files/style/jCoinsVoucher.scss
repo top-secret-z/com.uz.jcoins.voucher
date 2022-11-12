@@ -1,240 +1,240 @@
 .jcoinsVoucherList {
-	margin-left: -10px;
-	margin-right: -10px;
-	
-	@include screen-md-up {
-		display: flex;
-		flex-wrap: wrap;
-		margin-bottom: -20px;
-	}
-	
-	> li {
-		overflow: hidden;
-		padding-left: 10px;
-		padding-right: 10px;
-		
-		@include screen-sm-down {
-			&:not(:last-child) {
-				margin-bottom: 20px;
-			}
-		}
-		
-		@include screen-md-up {
-			flex: 0 0 50%;
-			margin-bottom: 20px;
-			max-width: 50%;
-		}
-	}
-	
-	.jcoinsVoucherDiv {
-		border: 1px solid $wcfContentBorderInner;
-		
-		> .box128 {
-			color: inherit;
-			padding: 20px;
-		}
-		
-		@include screen-xs {
-			> .box128 {
-				padding: 10px;
-				
-			}
-			
-			.jcoinsVoucherImage {
-				margin-right: 10px;
-				
-				img {
-					height: 64px !important;
-					width: 64px !important;
-				}
-			}
-		}
-		
-		&:hover {
-			.jcoinsVoucherRedeem {
-				display: block;
-				
-				+ .jcoinsVoucherStats {
-					display: none;
-				}
-			}
-		}
-	}
-	
-	.jcoinsVoucherStats, .jcoinsVoucherRedeem {
-		padding: 10px;
-	}
-	
-	.jcoinsVoucherAction {
-		background-color: $wcfTabularBoxBackgroundActive;
-		border-top: 1px solid $wcfContentBorderInner;
-	}
-	
-	.jcoinsVoucherStats {
-		justify-content: center;
-		
-		> li {
-			&:not(:last-child) {
-				margin-right: 10px;
-			}
-		}
-	}
-	
-	.jcoinsVoucherRedeem {
-		display: none;
-		
-		> a {
-			display: block;
-			text-align: center;
-		}
-		
-		> p {
-			display: block;
-			text-align: center;
-			color: $wcfContentLinkActive;
-		}
-	}
-	
-	.jcoinsVoucherSubject {
-		padding-top: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	
-	.jcoinsVoucherFooter {
-		padding-bottom: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+    margin-left: -10px;
+    margin-right: -10px;
+
+    @include screen-md-up {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: -20px;
+    }
+
+    > li {
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        @include screen-sm-down {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+
+        @include screen-md-up {
+            flex: 0 0 50%;
+            margin-bottom: 20px;
+            max-width: 50%;
+        }
+    }
+
+    .jcoinsVoucherDiv {
+        border: 1px solid $wcfContentBorderInner;
+
+        > .box128 {
+            color: inherit;
+            padding: 20px;
+        }
+
+        @include screen-xs {
+            > .box128 {
+                padding: 10px;
+
+            }
+
+            .jcoinsVoucherImage {
+                margin-right: 10px;
+
+                img {
+                    height: 64px !important;
+                    width: 64px !important;
+                }
+            }
+        }
+
+        &:hover {
+            .jcoinsVoucherRedeem {
+                display: block;
+
+                + .jcoinsVoucherStats {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .jcoinsVoucherStats, .jcoinsVoucherRedeem {
+        padding: 10px;
+    }
+
+    .jcoinsVoucherAction {
+        background-color: $wcfTabularBoxBackgroundActive;
+        border-top: 1px solid $wcfContentBorderInner;
+    }
+
+    .jcoinsVoucherStats {
+        justify-content: center;
+
+        > li {
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .jcoinsVoucherRedeem {
+        display: none;
+
+        > a {
+            display: block;
+            text-align: center;
+        }
+
+        > p {
+            display: block;
+            text-align: center;
+            color: $wcfContentLinkActive;
+        }
+    }
+
+    .jcoinsVoucherSubject {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .jcoinsVoucherFooter {
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .jcoinsVoucherRedeemed {
-	position: relative;
-	
-	&::before {
-		display: block;
-		font-family: FontAwesome;
-		position: absolute;
-		
-		@include screen-md-up {
-			font-size: 42px;
-		}
-		
-		@include screen-sm-down {
-			font-size: 28px;
-		}
-	}
+    position: relative;
+
+    &::before {
+        display: block;
+        font-family: FontAwesome;
+        position: absolute;
+
+        @include screen-md-up {
+            font-size: 42px;
+        }
+
+        @include screen-sm-down {
+            font-size: 28px;
+        }
+    }
 }
 
 .jcoinsVoucherRedeemed::before {
-	color: #27ae60;		// JCoins positive
-	content: $fa-var-check;
-	opacity: 0.85;
-	
-	@include screen-md-up {
-		left: 13px;
-		top: -2px;
-	}
-	
-	@include screen-sm-down {
-		left: 3px;
-		top: -4px;
-	}
+    color: #27ae60;        // JCoins positive
+    content: $fa-var-check;
+    opacity: 0.85;
+
+    @include screen-md-up {
+        left: 13px;
+        top: -2px;
+    }
+
+    @include screen-sm-down {
+        left: 3px;
+        top: -4px;
+    }
 }
 
 .jcoinsVoucherExpired {
-	position: relative;
-	
-	&::before {
-		display: block;
-		font-family: FontAwesome;
-		position: absolute;
-		
-		@include screen-md-up {
-			font-size: 42px;
-		}
-		
-		@include screen-sm-down {
-			font-size: 28px;
-		}
-	}
+    position: relative;
+
+    &::before {
+        display: block;
+        font-family: FontAwesome;
+        position: absolute;
+
+        @include screen-md-up {
+            font-size: 42px;
+        }
+
+        @include screen-sm-down {
+            font-size: 28px;
+        }
+    }
 }
 
 .jcoinsVoucherExpired::before {
-	color: #c0392b;		// JCoins negative
-	content: $fa-var-ban;
-	opacity: 0.85;
-	
-	@include screen-md-up {
-		left: 13px;
-		top: -2px;
-	}
-	
-	@include screen-sm-down {
-		left: 3px;
-		top: -4px;
-	}
+    color: #c0392b;        // JCoins negative
+    content: $fa-var-ban;
+    opacity: 0.85;
+
+    @include screen-md-up {
+        left: 13px;
+        top: -2px;
+    }
+
+    @include screen-sm-down {
+        left: 3px;
+        top: -4px;
+    }
 }
 
 /* voucher bbcode styling */
 .voucherBox {
-	background-color: $wcfContentBackground;
-	box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
-	display: inline-block;
-	margin: 20px 0;
-	padding: 20px;
-	white-space: nowrap;
-	
-	@include screen-md-up {
-		max-width: 500px;
-	}
-	
-	@include screen-sm-down {
-		max-width: 100%;
-	}
-	
-	ul {
-		list-style-type: none !important;
-		margin: 0 !important;
-		
-		li {
-			margin: 0 !important;
-			
-			&:not(:last-child) {
-				padding-bottom: 20px;
-				margin-bottom: 20px !important;
-				border-bottom: 1px dotted $wcfContentBorderInner;
-			}
-		}
-	}
-	
-	.voucherDataContainer {
-		padding-bottom: 20px;
-		position: relative;
-	}
-	
-	.voucherSubject {
-		display: block;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		
-		@include wcfFontHeadline;
-	}
-	
-	.voucherDate {
-		color: $wcfContentText;
-		display: block;
-	}
-	
-	.voucherImg {
-		width: 64px;
-	}
-	
-	.voucherContentType {
-		bottom: 0;
-		color: $wcfContentDimmedText;
-		display: block;
-		position: absolute;
-		right: 0;
-	}
+    background-color: $wcfContentBackground;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    display: inline-block;
+    margin: 20px 0;
+    padding: 20px;
+    white-space: nowrap;
+
+    @include screen-md-up {
+        max-width: 500px;
+    }
+
+    @include screen-sm-down {
+        max-width: 100%;
+    }
+
+    ul {
+        list-style-type: none !important;
+        margin: 0 !important;
+
+        li {
+            margin: 0 !important;
+
+            &:not(:last-child) {
+                padding-bottom: 20px;
+                margin-bottom: 20px !important;
+                border-bottom: 1px dotted $wcfContentBorderInner;
+            }
+        }
+    }
+
+    .voucherDataContainer {
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .voucherSubject {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        @include wcfFontHeadline;
+    }
+
+    .voucherDate {
+        color: $wcfContentText;
+        display: block;
+    }
+
+    .voucherImg {
+        width: 64px;
+    }
+
+    .voucherContentType {
+        bottom: 0;
+        color: $wcfContentDimmedText;
+        display: block;
+        position: absolute;
+        right: 0;
+    }
 }
